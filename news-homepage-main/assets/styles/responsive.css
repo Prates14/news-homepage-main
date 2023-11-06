@@ -1,0 +1,9 @@
+@media (min-width: 375px) and (max-width: 400px) {
+
+    body {
+        min-width: 375px;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
