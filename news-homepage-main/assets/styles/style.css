@@ -158,10 +158,6 @@ p {
     color: var(--Soft-orange);
 }
 
-.main-content__secundary__info__elements p {
-    margin-right: 40px;
-}
-
 .main-content__secundary__info__elements hr {
     width: 100%;
     margin: 25px 0;
