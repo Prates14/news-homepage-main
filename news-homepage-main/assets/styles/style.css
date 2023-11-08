@@ -78,6 +78,13 @@ p {
     height: 100%;
 }
 
+.main-content__primary__img {
+    background-image: url(./../images/image-web-3-desktop.jpg);
+    background-repeat: no-repeat;
+    width: 920px;
+    height: 400px;
+}
+
 .main-content__primary__info {
     display: flex;
     align-items: center;
