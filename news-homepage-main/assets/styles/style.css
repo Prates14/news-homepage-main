@@ -29,6 +29,10 @@ p {
     font-size: 15px;
 }
 
+.close-menu {
+    display: none;
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;

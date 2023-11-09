@@ -1,5 +1,16 @@
 @media (min-width: 375px) and (max-width: 799px) {
 
+    :root{
+        /* color Primary */
+            --Soft-orange: hsl(35, 77%, 62%);
+            --Soft-red: hsl(5, 85%, 63%);
+        /* color Neutral */
+            --Off-white: hsl(36, 100%, 99%);
+            --Grayish-blue: hsl(233, 8%, 79%);
+            --Dark-grayish-blue: hsl(236, 13%, 42%);
+            --Very-dark-blue: hsl(240, 100%, 5%);
+        }
+    
     body {
         width: 90vw;
         height: auto;
@@ -14,8 +25,43 @@
         font-size: 50px;
     }
 
-    .cabecalho nav {
+    .menu {
+        z-index: 1;
+        position: fixed;
         display: none;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 25%;
+        height: 100vh;
+        background-color: var(--Off-white);
+    }
+    
+    .close-menu-label::after {
+        content: url(./../images/icon-menu.svg);
+        display: block;
+        z-index: 2;
+        top: 40px;
+        right: 30px;
+        position: fixed;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .close-menu:checked~.menu {
+        display: block;
+    }
+
+    .close-menu:checked~.close-menu-label::after {
+        content: url(./../images/icon-menu-close.svg);
+    }
+
+    .secao {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        font-size: 22px;
     }
 
     .main-content {
@@ -109,10 +155,6 @@
 
     .sigla {
         font-size: 60px;
-    }
-
-    .cabecalho nav {
-        display: none;
     }
 
     .main-content {
