@@ -41,14 +41,15 @@
         content: url(./../images/icon-menu.svg);
         display: block;
         z-index: 2;
-        top: 40px;
+        top: 35px;
         right: 30px;
         position: fixed;
         padding: 5px;
         border-radius: 5px;
+        cursor: pointer;
     }
     
-    .close-menu:checked~.menu {
+    .close-menu:checked~.cabecalho > .menu {
         display: block;
     }
 
