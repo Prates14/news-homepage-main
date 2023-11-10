@@ -1,16 +1,16 @@
 @media (min-width: 375px) and (max-width: 799px) {
 
-    :root{
+    :root {
         /* color Primary */
-            --Soft-orange: hsl(35, 77%, 62%);
-            --Soft-red: hsl(5, 85%, 63%);
+        --Soft-orange: hsl(35, 77%, 62%);
+        --Soft-red: hsl(5, 85%, 63%);
         /* color Neutral */
-            --Off-white: hsl(36, 100%, 99%);
-            --Grayish-blue: hsl(233, 8%, 79%);
-            --Dark-grayish-blue: hsl(236, 13%, 42%);
-            --Very-dark-blue: hsl(240, 100%, 5%);
-        }
-    
+        --Off-white: hsl(36, 100%, 99%);
+        --Grayish-blue: hsl(233, 8%, 79%);
+        --Dark-grayish-blue: hsl(236, 13%, 42%);
+        --Very-dark-blue: hsl(240, 100%, 5%);
+    }
+
     body {
         width: 90vw;
         height: auto;
@@ -36,7 +36,7 @@
         height: 100vh;
         background-color: var(--Off-white);
     }
-    
+
     .close-menu-label::after {
         content: url(./../images/icon-menu.svg);
         display: block;
@@ -48,8 +48,8 @@
         border-radius: 5px;
         cursor: pointer;
     }
-    
-    .close-menu:checked~.cabecalho > .menu {
+
+    .close-menu:checked~.cabecalho>.menu {
         display: block;
     }
 
@@ -238,7 +238,8 @@
         height: auto;
     }
 
-    .main-content__primary, .main-content__primary__img {
+    .main-content__primary,
+    .main-content__primary__img {
         width: 100%;
     }
 

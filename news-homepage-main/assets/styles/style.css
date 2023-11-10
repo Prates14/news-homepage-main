@@ -1,8 +1,8 @@
-:root{
-/* color Primary */
+:root {
+    /* color Primary */
     --Soft-orange: hsl(35, 77%, 62%);
     --Soft-red: hsl(5, 85%, 63%);
-/* color Neutral */
+    /* color Neutral */
     --Off-white: hsl(36, 100%, 99%);
     --Grayish-blue: hsl(233, 8%, 79%);
     --Dark-grayish-blue: hsl(236, 13%, 42%);
@@ -55,7 +55,8 @@ p {
     transition: ease-in-out 0.7s;
 }
 
-.secao li a:hover, .footer-content__info h3:hover {
+.secao li a:hover,
+.footer-content__info h3:hover {
     color: var(--Soft-red);
 }
 
